@@ -1,0 +1,27 @@
+@font-face {
+  font-family: louis;
+  src: url(fonts/Louis\ George\ Cafe\ Bold\ Italic.ttf);
+}
+
+@font-face {
+  font-family: louis-b;
+  src: url(fonts/Louis\ George\ Cafe\ Bold.ttf);
+}
+
+body {
+  background-color: rgb(224, 224, 224);
+}
+
+header {
+  font-family: louis-b;
+  font-size: 20px;
+}
+
+section {
+  font-family: louis;
+  padding: 15px;
+}
+
+.custom-home {
+  font-size: 1.5em !important
+}

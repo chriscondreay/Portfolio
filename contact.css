@@ -1,0 +1,51 @@
+@font-face {
+  font-family: Louis-bold;
+  src: url(fonts/Louis\ George\ Cafe\ Bold.ttf);
+}
+
+@font-face {
+  font-family: Louis;
+  src: url(fonts/Louis\ George\ Cafe.ttf);
+}
+
+body {
+  background-color: rgb(241, 241, 241);
+}
+header {
+  font-family: Louis-bold;
+  font-size: 20px;
+}
+
+article {
+  font-family: Louis;
+}
+
+div {
+  font-family: Louis-bold;
+}
+
+.custom-contact {
+  font-size: 2rem;
+}
+
+.contact-form h1 {
+  padding: 1rem;
+  font-size: 50px;
+}
+
+.number {
+  font-family: Louis;
+  font-size: 20px;
+}
+
+.phone-h3 {
+  font-family: Louis-bold;
+  padding-top: 15px;
+  color: rgb(77, 77, 77);
+}
+
+.email {
+  font-family: Louis-bold;
+  padding-top: 5px;
+  color: rgb(77, 77, 77);
+}
