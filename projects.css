@@ -1,6 +1,6 @@
 @font-face {
   font-family: louis;
-  src: url(fonts/Louis\ George\ Cafe\ Bold\ Italic.ttf);
+  src: url(fonts/Louis\ George\ Cafe\ Bold.ttf);
 }
 
 @font-face {
@@ -20,8 +20,18 @@ header {
 section {
   font-family: louis;
   padding: 15px;
+  margin: 5px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .custom-project {
   font-size: 1.5em !important;
 }
+
+/* div.card {
+  
+  margin: 10px ;
+} */
